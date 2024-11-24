@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Russo One";
+  src: url(./fonts/RussoOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter_28pt-Medium.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  padding: 100px;
+  justify-content: space-evenly;
+}
+.container {
+  flex-direction: column;
+  max-width: 430px;
+  height: 636px;
+}
+.time {
+  left: 1390px;
+  top: 222px;
+  position: absolute;
+}
+.p1 {
+  padding-left: 130px;
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.h1 {
+  color: #fff;
+  font-family: "Russo One";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.searchDiv {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.search::placeholder {
+  padding-left: 30px;
+}
+
+h1 {
+  color: #0d0d0d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-wrap: nowrap;
+}
+p {
+  color: #888;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+}
+.btn {
+  cursor: pointer;
+  font-size: 26px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  width: 88px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 5px;
+  background: #20eeb0;
+  color: white;
+  max-width: 100px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  padding: 12px 189px 13px 14px;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+  background: #eee;
+  border: none;
+  border-radius: 5px;
+  max-width: 300px;
+}
+#taskList {
+  padding-top: 30px;
+  padding-left: 23px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.delete-button {
+  border: none;
+  background: none;
+}
+.checkbox {
+  display: flex;
+  gap: 10px;
+}
+.head {
+  color: #007fdb;
+  font-family: Inter;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 200px;
+}
